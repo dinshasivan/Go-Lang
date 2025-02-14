@@ -2,11 +2,14 @@ package main
 
 import (
 	"Demo/utils"
-	"fmt"
+	
 )
 
 func main() {
-	fmt.Println("Hello world")
-	utils.Helloworld()
-	utils.VariableDeclaration()
+	// fmt.Println("Hello world")
+	// utils.Helloworld()
+	// utils.VariableDeclaration()
+	// utils.FormatingString()
+	// utils.ArrayOperation()
+	utils.Libraries()
 }
