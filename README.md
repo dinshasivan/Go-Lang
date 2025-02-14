@@ -3,22 +3,24 @@ Go is a programming language created by Google. Go is a fast statically typed, c
 
 ## Variable Declaration
 
-var var_name type
+```var var_name type```
 
 **Explicit Declaration** 
 
-var name string
+```var name string```
 
 **Type Inference**
 
-var name = "value"
+```var name = "value"```
 
 **short variable declaration**
 
-name := "dinsha"
-age := "23"
+```
+    name := "dinsha"
+    age := "23"
+```
 
-The **:=** Operator declares and initialize the varial in one step.
+The ```:=``` Operator declares and initialize the varial in one step.
 
 ## Format Specifiers 
 
@@ -71,3 +73,34 @@ Go's standard library provides a rich set of built-in packages for various funct
 4. **math:** Provides basic constants and mathematical functions
 5. **net/http:**  Provides HTTP client and server implementations.
 6. **syn:** Provides basic synchronization primitives.
+
+## Loops
+Go has only one looping construct: the for loop. However, it can be used in different ways to achieve while and do-while loop behavior.
+
+**Basic ```for``` loop**
+```
+    for i := 0; i < 5; i++{
+        //statements
+    }
+```
+
+**```for``` loop as ```while``` loop**
+```
+    x := 0
+	for x < 5{
+		//statement
+		// increment x 
+	}
+```
+
+## Conditionals & Booleans
+Go provides standard conditional statements like ```if```, ```else if```, ```else```, and ```switch```. Boolean values (```true``` / ```false```) are essential in controlling program flow.
+
+## Functions
+
+Functions in Go help in modularizing code and improving reusability. They are defined using the func keyword.
+
+* Use parameteers for input and return values for output
+* Go supports multiple retun values.
+* Functions can be assigned to varables and passed as arguments
+
