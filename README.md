@@ -191,5 +191,8 @@ An interface in Go is a type that specifies a set of method signatures. A type i
 ## Download and Install Go
 **🔗 Official Website:** https://go.dev/doc/install
 * Choose the installer based on your operating system.
+* Verify installation using ``` go version ```
+* Setup GOPATH(optional) for workspace organization.
+* Run a test program to confirm installation
 
 
