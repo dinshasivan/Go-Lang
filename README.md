@@ -164,3 +164,25 @@ A receiver function is a function with a receiver parameter, which is a special 
 
 . Use receiver functions to encapsulate behavior inside structs.
 
+### User Inputs
+In Go, you can take user input using the ```fmt.Scan```, ```fmt.Scanln```, or ```fmt.Scanf``` functions.
+
+Using ```fmt.Scanf``` requires a **format specifier** (```%s``` for string, ```%d``` integer etc.)
+
+Reading multi-world or multi-line input you can use ```bufio.Reader```. 
+```
+    reader := bufio.NewReader(os.Stdin) // Create a buffered reader
+```
+### Save files
+In Go, you can write and save files using the ```os``` and ```io/ioutil``` packages.
+
+```os.WriteFile``` → Write new content.
+
+```os.OpenFile``` with ```os.O_APPEND``` → Append content.
+
+```os.ReadFile``` → Read file content.
+
+
+## Interface
+
+An interface in Go is a type that specifies a set of method signatures. A type implements an interface if it defines the methods declared by the interface. Go interfaces provide polymorphism without explicit inheritance.

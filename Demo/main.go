@@ -48,6 +48,12 @@ func main() {
 		utils.PassByValue()
 	case "15":
 		utils.ReceiverFunction()
+	case "16":
+		utils.UserInput()
+	case "17":
+		utils.SaveFile()
+	case "18":
+		utils.Interface()
 	default:
 		fmt.Println("Invalid argument. Please provide a valid function name.")
 	}
