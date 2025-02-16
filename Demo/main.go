@@ -2,7 +2,7 @@ package main
 
 import (
 	"Demo/utils"
-	"fmt"
+	
 	// "fmt"
 	// "os"
 )
@@ -16,15 +16,16 @@ func main() {
 	// utils.Libraries()
 	// utils.Loops()
 	// utils.Conditions()
-	utils.Functions("dinsha")
 
-	utils.CycleName([]string{"cloud","tifa","barret"},utils.Functions)
+	// utils.Functions("dinsha")
 
-	a1 := utils.CircleArea(10.5)
-	a2 := utils.CircleArea(15)
+	// utils.CycleName([]string{"cloud","tifa","barret"},utils.Functions)
 
-	fmt.Println(a1,a2)
-	fmt.Printf("cercle 1 is %0.3f and circle 2 is %0.3f \n",a1, a2)
+	// a1 := utils.CircleArea(10.5)
+	// a2 := utils.CircleArea(15)
+
+	// fmt.Println(a1,a2)
+	// fmt.Printf("cercle 1 is %0.3f and circle 2 is %0.3f \n",a1, a2)
 
 	// if len(os.Args) > 1 {
 	// 	if os.Args[1] == "gm" {
@@ -36,8 +37,14 @@ func main() {
 	// 	fmt.Println("Nothing to do")
 	// }
 
-	fn, sn := utils.MultipleReturnValue("dinsha sivan")
-	fmt.Println(fn,sn)
+	// fn, sn := utils.MultipleReturnValue("dinsha sivan")
+	// fmt.Println(fn,sn)
 
-	utils.Sum(1,2,3,4,5)
+	// utils.Sum(1,2,3,4,5)
+
+	// utils.MapOerations()
+
+	// utils.PassByValue()
+
+	utils.ReceiverFunction()	
 }
