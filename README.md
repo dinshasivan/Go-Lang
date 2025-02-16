@@ -1,6 +1,7 @@
 # Go-Lang
 Go is a programming language created by Google. Go is a fast statically typed, compiled language. It is a general purpose language. Go has built-in testing support. Go is an object-oriented language(in its own way).
 
+
 ## Variable Declaration
 
 ```var var_name type```
@@ -186,3 +187,9 @@ In Go, you can write and save files using the ```os``` and ```io/ioutil``` packa
 ## Interface
 
 An interface in Go is a type that specifies a set of method signatures. A type implements an interface if it defines the methods declared by the interface. Go interfaces provide polymorphism without explicit inheritance.
+
+## Download and Install Go
+**🔗 Official Website:** https://go.dev/doc/install
+* Choose the installer based on your operating system.
+
+
