@@ -196,3 +196,27 @@ An interface in Go is a type that specifies a set of method signatures. A type i
 * Run a test program to confirm installation
 
 
+## Basic WebServer
+
+```net/http``` This package provides functionality for creating both HTTP clients and servers. It provides functions and types for handling HTTP requests and responses.
+
+### Fiber
+Fiber is a fast, lightweight web framework for Go, inspired by Express.js. It simplifies handling HTTP requests and provides built-in middleware.
+
+```github.com/gofiber/fiber/v2``` This is the main package of Fiber. It provides functions to create a web server, define routes, and handle requests.
+
+```github.com/gofiber/fiber/v2/middleware/logger``` This middleware logs HTTP requests (method, path, response time).
+
+```github.com/gofiber/fiber/v2/middleware/cors``` Allow request from any origin
+
+```github.com/gofiber/fiber/v2/middleware/bodyparser``` Parses JSON, form data, and more
+
+```github.com/gofiber/fiber/v2/middleware/compress``` Compresses responses to improve performance.
+
+* Fast (built on fasthttp)
+* Easy to use (Express-like API)
+* Built-in middleware (logging, CORS, compression)
+* Supports Websockets, JWT, and more.
+
+
+
